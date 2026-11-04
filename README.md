@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/python-3.11-30363d?logo=python&logoColor=white&labelColor=161b22" alt="Python 3.11">
   <img src="https://img.shields.io/badge/scikit--learn-ML%20pipeline-30363d?logo=scikitlearn&logoColor=white&labelColor=161b22" alt="scikit-learn">
   <img src="https://img.shields.io/badge/NVIDIA-Nemotron-30363d?logo=nvidia&logoColor=white&labelColor=161b22" alt="NVIDIA Nemotron">
-  <img src="https://img.shields.io/badge/license-MIT-30363d?labelColor=161b22" alt="MIT License">
 </p>
 
 <p align="center">
@@ -253,10 +252,3 @@ connected to the ML pipeline.
 
 **Pietro Chiapinotto Drachler**, team lead and product. Engineering student at UFSM (Brazil).
 Built during the Open Agent Hackathon 2026 (Oct 22–27, 2026).
-
-[![GitHub](https://img.shields.io/badge/GitHub-pietrocdrachler-30363d?logo=github&labelColor=161b22)](https://github.com/pietrocdrachler)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro%20Chiapinotto%20Drachler-30363d?logo=linkedin&labelColor=161b22)](https://www.linkedin.com/in/pietrochiapinottodrachler)
-
-## License
-
-[MIT](LICENSE)
