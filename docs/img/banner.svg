@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9d1d9"/>
+      <stop offset="1" stop-color="#c9d1d9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono',Consolas,'Courier New',monospace}
+    </style>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="18" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1279" height="359" rx="18" fill="none" stroke="#30363d"/>
+
+  <!-- vibration trace -->
+  <path d="M640 250 L660 246 L672 254 L684 244 L696 252 L708 247 L720 255 L732 245 L744 251 L756 248 L768 254 L780 243 L792 252 L804 246 L816 253 L828 244 L840 250 L852 247 L864 255 L876 242 L888 249 L900 240 L912 246 L924 232 L936 238 L948 222 L960 228 L972 206 L984 212 L996 186 L1008 190 L1020 160 L1032 162 L1044 128 L1056 124 L1068 92 L1080 82 L1092 60"
+        fill="none" stroke="url(#wave)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="640" y1="150" x2="1180" y2="150" stroke="#484f58" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <text x="1180" y="142" text-anchor="end" class="m" font-size="12" fill="#7d8590">ALARM 4.5 mm/s</text>
+  <line x1="640" y1="60" x2="1180" y2="60" stroke="#484f58" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <text x="1180" y="52" text-anchor="end" class="m" font-size="12" fill="#7d8590">TRIP 7.0 mm/s</text>
+  <line x1="912" y1="40" x2="912" y2="290" stroke="#d29922" stroke-width="1.5"/>
+  <rect x="922" y="262" width="214" height="30" rx="15" fill="#0d1117" stroke="#d29922" stroke-opacity="0.7"/>
+  <text x="1029" y="282" text-anchor="middle" class="m" font-size="12" fill="#d29922">AGENT ALERT · WO-1001</text>
+
+  <!-- text -->
+  <text x="72" y="92" class="m" font-size="14" fill="#7d8590" letter-spacing="3">PREDICTIVE MAINTENANCE · OIL &amp; GAS</text>
+  <text x="70" y="160" class="t" font-size="60" font-weight="700" fill="#e6edf3">Petro Mech AI</text>
+  <line x1="72" y1="178" x2="132" y2="178" stroke="#d29922" stroke-width="2"/>
+  <text x="72" y="214" class="t" font-size="21" fill="#c9d1d9">An agent that watches pumps &amp; compressors</text>
+  <text x="72" y="242" class="t" font-size="21" fill="#c9d1d9">and <tspan font-weight="600" fill="#e6edf3">explains why</tspan> it acts.</text>
+  <g class="m" font-size="13" fill="#8b949e">
+    <rect x="72" y="270" width="148" height="30" rx="15" fill="none" stroke="#30363d"/>
+    <text x="146" y="290" text-anchor="middle">Isolation Forest</text>
+    <rect x="230" y="270" width="160" height="30" rx="15" fill="none" stroke="#30363d"/>
+    <text x="310" y="290" text-anchor="middle">RUL · Grad. Boost</text>
+    <rect x="400" y="270" width="148" height="30" rx="15" fill="none" stroke="#30363d"/>
+    <text x="474" y="290" text-anchor="middle">NVIDIA Nemotron</text>
+  </g>
+</svg>
