@@ -236,15 +236,11 @@ connected to the ML pipeline.
 - The model's priority can differ from the plant's escalation rule (A002); the trace shows each decision.
 - Zetaris not integrated yet.
 
-## Roadmap
+## Progress
 
 - [x] Synthetic simulator, features, anomaly detection and RUL model
 - [x] Tool-calling agent with NVIDIA Nemotron and full traces
 - [x] Automated tests
-- [ ] Zetaris as the data layer: federated SQL over historian, maintenance records and manuals
-- [ ] FastAPI, PostgreSQL and Docker Compose
-- [ ] More failure modes and public degradation datasets
-- [ ] Pilot with real plant data
 
 ---
 
