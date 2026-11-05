@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/ylcaJ8-7U20"><b>▶ Watch the demo (2:44)</b></a> ·
+  <a href="https://youtu.be/ylcaJ8-7U20"><b>▶ Watch the demo</b></a> ·
   <a href="https://hackathon-server.genai.works/api/v1/cdn/proxy/hackathon/d3ec5be03bfe4d50894e90cd4852386c.pdf"><b>Slides</b></a>
 </p>
 
