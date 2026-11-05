@@ -15,11 +15,7 @@
 
 <p align="center">
   <a href="https://youtu.be/ylcaJ8-7U20"><b>▶ Watch the demo (2:44)</b></a> ·
-  <a href="https://hackathon-server.genai.works/api/v1/cdn/proxy/hackathon/d3ec5be03bfe4d50894e90cd4852386c.pdf"><b>Slides</b></a> ·
-  <a href="#quick-start">Quick start</a> ·
-  <a href="#three-real-runs">Examples</a> ·
-  <a href="#results-synthetic-data">Results</a> ·
-  <a href="#limitations">Limitations</a>
+  <a href="https://hackathon-server.genai.works/api/v1/cdn/proxy/hackathon/d3ec5be03bfe4d50894e90cd4852386c.pdf"><b>Slides</b></a>
 </p>
 
 ---
