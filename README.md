@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="docs/img/banner.svg" alt="Petro Mech AI: a predictive maintenance agent that explains why" width="100%">
+  <img src="docs/img/banner.svg" alt="Petro Mech: a predictive maintenance agent that explains why" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/pietrocdrachler/petro-mech-ai/actions/workflows/tests.yml"><img src="https://github.com/pietrocdrachler/petro-mech-ai/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
+  <a href="https://github.com/pietrocdrachler/petro-mech/actions/workflows/tests.yml"><img src="https://github.com/pietrocdrachler/petro-mech/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
   <img src="https://img.shields.io/badge/python-3.11-30363d?logo=python&logoColor=white&labelColor=161b22" alt="Python 3.11">
   <img src="https://img.shields.io/badge/scikit--learn-ML%20pipeline-30363d?logo=scikitlearn&logoColor=white&labelColor=161b22" alt="scikit-learn">
   <img src="https://img.shields.io/badge/NVIDIA-Nemotron-30363d?logo=nvidia&logoColor=white&labelColor=161b22" alt="NVIDIA Nemotron">
@@ -26,7 +26,7 @@ In Oil & Gas, an unplanned stop of a pump or compressor costs production, money 
 Condition monitoring systems raise alarms, but an alarm alone does not tell the maintenance planner
 **what is happening, how sure we are, and what to do next**.
 
-**Petro Mech AI** is an agent that monitors rotating equipment, decides which tools to call, and answers
+**Petro Mech** is an agent that monitors rotating equipment, decides which tools to call, and answers
 every case with three things:
 
 | Part | What it contains |
@@ -97,8 +97,8 @@ Every output states which planner and mode produced it.
 ## Quick start
 
 ```bash
-git clone https://github.com/pietrocdrachler/petro-mech-ai.git
-cd petro-mech-ai
+git clone https://github.com/pietrocdrachler/petro-mech.git
+cd petro-mech
 pip install -r requirements.txt
 
 python -m ml.train                            # simulate 90 assets, train, evaluate (~20 s on a laptop)
@@ -203,7 +203,7 @@ Across five seeds (1 to 4 and 42) the results stay in the same range: 18/18 dete
 ## Repository structure
 
 ```
-petro-mech-ai/
+petro-mech/
 ├── agent/
 │   ├── run.py          # planner (Nemotron / evidence-first / rules), tracing, CLI
 │   └── tools.py        # read_sensors, get_history, search_manual, create_work_order

@@ -44,7 +44,7 @@
 
   <!-- text -->
   <text x="72" y="92" class="m" font-size="14" fill="#7d8590" letter-spacing="3">PREDICTIVE MAINTENANCE · OIL &amp; GAS</text>
-  <text x="70" y="160" class="t" font-size="60" font-weight="700" fill="#e6edf3">Petro Mech AI</text>
+  <text x="70" y="160" class="t" font-size="60" font-weight="700" fill="#e6edf3">Petro Mech</text>
   <line x1="72" y1="178" x2="132" y2="178" stroke="#d29922" stroke-width="2"/>
   <text x="72" y="214" class="t" font-size="21" fill="#c9d1d9">An agent that watches pumps &amp; compressors</text>
   <text x="72" y="242" class="t" font-size="21" fill="#c9d1d9">and <tspan font-weight="600" fill="#e6edf3">explains why</tspan> it acts.</text>
